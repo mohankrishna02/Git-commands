@@ -64,4 +64,77 @@ git log
 ```
 !["Git Command"](https://github.com/mohankrishna02/Git-commands/blob/main/images/git%20log.png "Optional Title")
 
+### Git pull :-
+* The `git pull` command is used to fetch the latest changes from a remote repository and integrate them into your local branch.
+```sh
+git pull
+```
+!["Git Command"](https://github.com/mohankrishna02/Git-commands/blob/main/images/git%20pull.png "Optional Title")
+
+### Git show :-
+* The `git show` command is used to display detailed information about a specific commit in the Git history.
+```sh
+git show <YOUR COMMIT ID>
+```
+!["Git Command"](https://github.com/mohankrishna02/Git-commands/blob/main/images/git%20show.png "Optional Title")
+
+### Git branch branchname :-
+* The `git branch branchname` command is used to create new branch.
+```sh
+git branch branchname
+```
+!["Git Command"](https://github.com/mohankrishna02/Git-commands/blob/main/images/git%20cbranch.png "Optional Title")
+
+### Git branch :-
+* The `git branch` command is used to list all the branches.
+```sh
+git branch
+```
+!["Git Command"](https://github.com/mohankrishna02/Git-commands/blob/main/images/git%20branch.png "Optional Title")
+
+### Git branch [-d] [-D] branchname :-
+* The `git branch [-d] [-D] branchname` command is used to delete the branches.
+```sh
+git branch -d branchname     //to delete the branch in locally
+
+git branch -D branchname    //to delete the branch remotely
+```
+!["Git Command"](https://github.com/mohankrishna02/Git-commands/blob/main/images/git%20dbranch.png "Optional Title")
+
+### Git checkout -b branchname :-
+* The `git checkout -b branchname` command is used to create a new branch and switches to that branch from the current branch.
+```sh
+git checkout -b branchname
+```
+!["Git Command"](https://github.com/mohankrishna02/Git-commands/blob/main/images/git%20checkoutbranch.png "Optional Title")
+
+### Git checkout branchname :-
+* The `git checkout branchname` command is used to switche to that branch from the current branch.
+```sh
+git checkout branchname
+```
+!["Git Command"](https://github.com/mohankrishna02/Git-commands/blob/main/images/git%20checkout.png "Optional Title")
+
+### Git merge :-
+* The `git merge` command is used to integrate changes from one branch into another branch. 
+```sh
+git merge branchname
+```
+!["Git Command"](https://github.com/mohankrishna02/Git-commands/blob/main/images/git%20merge.png "Optional Title")
+
+### Git reset :-
+* The `git reset` command is used to to undo changes in your repository.
+
+* To unstage a file 
+ ```sh
+ git reset filname
+ ```
+ * To undo commit changes [saves a copy]
+```sh
+git reset YOUR COMMIT ID
+```
+ * To undo commit changes and discards
+```sh
+git reset --hard YOUR COMMIT ID
+```
 
